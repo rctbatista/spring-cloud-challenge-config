@@ -32,3 +32,11 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:8761/eureka
+      
+kafka:
+  server:
+    url: localhost: 9092
+  topics:
+    pedido:
+      confirma:
+        pagamento: topic.pedido.confirma.pagamento
